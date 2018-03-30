@@ -1,0 +1,22 @@
+.footer{
+    width: 980px;
+    margin: 0 auto;
+}
+.footer-div{
+    height: 100px;
+    width: 100%;
+}
+.footer-div td{
+    height: 20px;
+    width: 175px;
+    min-width: 280px;
+    line-height: 25px;
+}
+.footer-div a{
+    color: #000;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.footer-div a:hover{
+    text-decoration: none;
+}
