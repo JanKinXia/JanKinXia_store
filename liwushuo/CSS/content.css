@@ -1,0 +1,139 @@
+.content{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+    padding: 0;
+}
+/*
+---- */
+.con-h3{
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 400;//字体粗细
+}
+.content-ul,.content-ul-2{
+    width: 1024px;
+}
+.content-ul-2,.content-ul-3{
+    display: none;
+}
+.content-ul-3{
+    height: 400px;
+    width: 1024px;
+}
+.content-show{
+    display: inline-block;
+    margin-right: 22px;
+    margin-bottom: 30px;
+    width: 310px;
+    height: 346px;
+    overflow: hidden;
+    border: solid #dedede thin;
+    border-radius: 6px;
+    transition: all .5s ease 0s;/*http://www.w3school.com.cn/tiy/t.asp?f=css3_transition-timing-function2*/
+}
+.content-show:hover{
+    position: relative;
+    top: -10px;
+    box-shadow: 0 4px 10px #BFBFBF;/*h-shadow v-shadow blur*/
+}
+.content-image{
+    height: 142px;
+    background-size: 100%;
+    background-position: 50% 50%;
+    /*background-image: url("./image/icon_tag_new.png");*/
+}
+.content-title{
+    color: #333;
+    padding: 20px;
+    height: 40px;
+    line-height:25px ;
+    font-size: 18px;
+}
+.content-example{
+    color:#888;
+    font-size: 14px;
+    padding: 15px;
+    padding-top: 0;
+    height: 60px;
+}
+.show-bottom{
+    padding: 15px;
+    height: 17px;
+    bottom: 0;
+    left: 0;
+}
+
+.number-like,.number-comment,.number-share{
+    display: block;
+    font-size: 14px;
+    padding: 0 5px;
+    float: left;
+    color: #333;
+    margin: -1px 0 0 2px;
+}
+.content-comment,.content-share,.content-like{
+    display: inline-block;
+    float: left;
+    height: 17px;
+    margin-right: 10px;
+}
+.icon-comment{
+    display: inline-block;
+    float: left;
+    width: 18px;
+    height: 17px;
+    background-image: url("./image/icon_comments_f4d62e5.png");
+}
+.icon-like {
+     display: inline-block;
+     float: left;
+     width: 18px;
+     height: 17px;
+     background-image: url("./image/icon_favorites_84ea68a.png");
+ }
+.icon-share{
+    display: inline-block;
+    float: left;
+    width: 18px;
+    height: 17px;
+    background-image: url("./image/icon_share_2bbb537.png");
+}
+.bottom-div{
+    height: 75px;
+    width: 100%;
+    margin: 10px 0 50px 0;
+    border: #dedede 1px solid;
+    border-radius: 6px;
+    color: #333;
+    text-align: center;
+    line-height: 70px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.icon-new{
+    height: 56px;
+    width: 57px;
+}
+.fixednav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.back-top{
+    display: none;
+    position: fixed;
+    right: 70px;
+    bottom: 100px;
+    height: 50px;
+    width: 60px;
+    cursor: pointer;
+    background-image: url("./image/index_z_d8fb8f2.png");
+    background-position: -50px -637px;
+}
+.back-top:hover{
+    background-position: -50px -690px;
+}
+

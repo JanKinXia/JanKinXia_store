@@ -1,0 +1,86 @@
+.header{
+    background-color: #ffffff;
+    height: 85px;
+    margin: 0;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+/*
+------ */
+.head-left{
+    width: 770px;
+    height: 85px;
+    float: left;
+}
+.head-logo{
+    margin-top: 28px;
+    display: block;
+    float: left;
+    width: 260px;height: 30px;
+    background: url("./image/logo.png");
+    background-size: 100%;//适配大小
+}
+.head-search-form{
+    width: 400px;
+    height: 60px;
+    float: right;
+    position: relative;
+    margin-top: 12px;
+}
+.search{
+    width: 294px;
+    height: 35px;
+    margin: 15px 30px 0;
+    padding: 0 35px;
+    border-radius: 4px;
+    border:solid #f84e4e 2px;
+    font-size: 16px;
+    outline: none;
+}
+.head-search-form label{
+    background: #f84e4e;
+    width: 81px;
+    height: 35px;
+    border-radius: 0 4px 4px 0;
+    right: 2px;
+    position: absolute;
+    top: 15px;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    line-height: 33px;
+}
+.head-search-form li{
+    background-image: url("./image/icon_search_5c49228.png");
+    display: block;
+    width: 18px;
+    height: 18px;
+    left: 40px;
+    position: absolute;
+    top: 24px;
+}
+/*
+*****
+ */
+.header .head-right{
+    width: 150px;
+    height: 84px;
+    float: right;
+}
+.login{
+    float: right;
+    width: 100px;
+    height: 36px;
+    margin-top: 26px;
+    position: absolute;
+    right: 0;
+    border: solid 1px #d9d9d9;
+    border-radius: 1px;
+    color: #444;background: #f9f9f9;
+    cursor: pointer;
+    text-align: center;
+    line-height: 36px;/////////////////////////////////////////
+}

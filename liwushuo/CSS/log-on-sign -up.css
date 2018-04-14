@@ -1,0 +1,103 @@
+.log-on-sign-up{
+    display: none;
+    position:fixed;
+    top: 0;
+    z-index: 111111;
+    background:rgba(68,68,68,.5);
+    height: 100%;
+    width: 100%;
+}
+.losu-main{
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    opacity: 1;
+    width: 400px;
+    height: 450px;
+    background-color: #FAFAFA;
+    border:solid #dedede thin;
+    border-radius: 5px;
+    box-shadow:5px 4px 10px #444444;
+    overflow: hidden;
+}
+/*top*/
+.losu-main-top{
+    width: 100%;
+    height: 30px;
+    background-color:	#FCFCFC;
+    border-bottom:solid #dedede thin;
+}
+.losu-main-top span{
+    margin: 5px 20px;
+}
+.losu-main-top i{
+    cursor: pointer;
+    margin: 5px 10px;
+    float: right;
+    width: 20px;
+    height:20px;
+    background-image: url("./image/删除1(无背景).jpg");
+}
+/*
+
+ */
+.losu-change-status div{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    font-size: 17px;
+}
+.d-wrapper{
+    width: 90%;
+}
+.log-on{
+    cursor: pointer;
+}
+.sign-up{
+    background-color: #dedede;
+    cursor: pointer;
+}
+/*
+
+ */
+.losu-form,.sign-up-form{
+    /*background-color: #444444;*/
+    display: block;
+    margin: 80px 50px 0 55px;
+    width: 300px;
+}
+.sign-up-form{
+     display:none;
+ }
+.losu-form input{
+    margin: 10px 20px;
+    width: 85%;
+    height: 30px;
+    outline: none;
+    padding-left: 30px;
+}
+.sign-up-form input{
+    margin: 10px 20px;
+    width: 85%;
+    height: 30px;
+    padding-left: 30px;
+    outline: none;
+}
+.fa-user-o ,.fa-unlock-alt{
+    position: relative;
+    top: -38px;
+    left: 30px;
+}
+#bt-login,#bt-signup{
+    cursor: pointer;
+    padding-left: 0;
+    width: 98%;
+}
+.losu-form span{
+   line-height: 50px;
+    font-weight: 100;
+}
+

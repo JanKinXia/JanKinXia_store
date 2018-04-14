@@ -1,0 +1,179 @@
+.nav-top{
+    background-color:#f84e4e;
+    height: 40px;
+}
+.nav-ul{
+    height: 40px;
+}
+.nav-li-bar{
+    height: 40px;
+    width: 140px;
+    display: inline-block;/*inline将元素设置成行内元素 block将元素设置成块级元素https://www.cnblogs.com/Ry-yuan/p/6848197.html*/
+    float: left;
+    font-size: 15px;
+}
+.ntba{
+    z-index: 111111;/*z-index与relative搭配时的反应*/
+    position: relative;
+    height: 40px;
+    line-height: 20px;
+    color: #fff;
+    text-align: right;
+}
+.nav-a-home{
+    display: block;/*a为行内元素*/
+    line-height: 20px;/*行高*/
+    padding:10px 31px;
+    font-size: 15px;
+    background: #e32f2f;
+    text-align: center;
+}
+.nav-li-bar:hover{
+    background-color: #e32f2f;
+}
+/*
+------
+ */
+.nav-a-people{
+    display: block;
+    position: relative;
+    height: 20px;
+    text-align: right;
+    line-height: 20px;
+    padding: 9px 31px;
+}
+.nav-a-situation{
+    display: block;
+    position: relative;
+    height: 20px;
+    text-align: right;
+    line-height: 20px;
+    padding: 9px 31px;
+}
+.nav-a-personal{
+    display: block;
+    position: relative;
+    height: 20px;
+    text-align: right;
+    line-height: 20px;
+    padding: 9px 31px;
+}
+.nav-li-bar-download-mobile{
+    display: block;
+    height: 20px;
+    text-align: right;
+    line-height: 20px;
+    padding:10px 20px 10px 0;
+}
+.nav-li-bar-EE{
+    position: absolute;
+    display: block;
+    padding: 10px 25px;
+    height: 20px;
+    z-index: 111111;
+}
+.nav-a-people:after{
+    content: " ";/*插入内容*/
+    background: url("./image/arrow_pulldown_d8d45bc.png");
+    display: inline-block;
+    margin-left: 5px;
+    width: 7px;
+    height: 4px;
+    vertical-align: middle;
+}
+.nav-a-situation:after{
+    content: " ";
+    background: url("./image/arrow_pulldown_d8d45bc.png");
+    display: inline-block;
+    margin-left: 5px;
+    width: 7px;
+    height: 4px;
+    vertical-align: middle;
+}
+.nav-a-personal:after{
+    content: " ";
+    background: url("./image/arrow_pulldown_d8d45bc.png");
+    display: inline-block;
+    margin-left: 5px;
+    width: 7px;
+    height: 4px;
+    vertical-align: middle;
+}
+.nav-li-bar-download-mobile:before{
+    content: " ";
+    background: url("./image/icon_download_nav_d86e83c.png");
+    width: 14px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;/*灵活利用relative*/
+    left: -8px;
+    top: -3px;
+}
+.nav-search{
+    display: none;
+    position: absolute;
+    z-index: 0;
+    right: 15px;
+    top: 7px;
+    background: transparent;
+}
+.nav-search-input{
+    background-clip: padding-box;
+    background: #f9f9f9;
+    height: 26px;
+    width: 240px;
+    border: solid rgba(204,204,204,0) 1px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 15px;
+    line-height: 30px;
+    padding-left: 8px;
+}
+.nav-search label{
+    width: 55px;
+    height: 28px;
+    border-radius: 0 4px 4px 0;
+    right: 0;top: 0;
+    position: absolute;
+    text-indent: -99999px;
+    cursor: pointer;
+}
+.nav-search li{
+    background-image: url("./image/icon_search_5c49228.png");
+    display: block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 5px;
+    right: 16px;
+    cursor: pointer;
+}
+/*
+----------------------
+ */
+.menu-panel{
+    display: none;
+    position: absolute;
+    top: 40px;
+    z-index: 10;
+    width: 140px;
+}
+nav ul ul li a{
+    display: block;
+    color: #555;
+    height: 33px;
+    background: #ffffff;
+    line-height: 36px;
+    text-align: center;
+    border-bottom: #c8c7cc dotted 1px;
+}
+nav ul ul li a:hover{
+    color:#f84e4e;
+    background: #f7f7f7;
+}
+nav ul ul li{
+    height: 34px;
+    background: #ffffff;
+}
+
