@@ -74,7 +74,7 @@
 }
 .nav-a-people:after{
     content: " ";/*插入内容*/
-    background: url("image/arrow_pulldown_d8d45bc.png");
+    background: url("./image/arrow_pulldown_d8d45bc.png");
     display: inline-block;
     margin-left: 5px;
     width: 7px;
@@ -83,7 +83,7 @@
 }
 .nav-a-situation:after{
     content: " ";
-    background: url("image/arrow_pulldown_d8d45bc.png");
+    background: url("./image/arrow_pulldown_d8d45bc.png");
     display: inline-block;
     margin-left: 5px;
     width: 7px;
@@ -92,7 +92,7 @@
 }
 .nav-a-personal:after{
     content: " ";
-    background: url("image/arrow_pulldown_d8d45bc.png");
+    background: url("./image/arrow_pulldown_d8d45bc.png");
     display: inline-block;
     margin-left: 5px;
     width: 7px;
@@ -101,7 +101,7 @@
 }
 .nav-li-bar-download-mobile:before{
     content: " ";
-    background: url("image/icon_download_nav_d86e83c.png");
+    background: url("./image/icon_download_nav_d86e83c.png");
     width: 14px;
     height: 24px;
     display: inline-block;
@@ -140,7 +140,7 @@
     cursor: pointer;
 }
 .nav-search li{
-    background-image: url("image/icon_search_5c49228.png");
+    background-image: url("./image/icon_search_5c49228.png");
     display: block;
     width: 18px;
     height: 18px;

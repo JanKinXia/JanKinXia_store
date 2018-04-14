@@ -20,7 +20,7 @@
     display: block;
     float: left;
     width: 260px;height: 30px;
-    background: url("image/logo.png");
+    background: url("./image/logo.png");
     background-size: 100%;//适配大小
 }
 .head-search-form{
@@ -54,7 +54,7 @@
     line-height: 33px;
 }
 .head-search-form li{
-    background-image: url("image/icon_search_5c49228.png");
+    background-image: url("./image/icon_search_5c49228.png");
     display: block;
     width: 18px;
     height: 18px;

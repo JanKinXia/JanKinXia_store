@@ -1,7 +1,9 @@
 .mainbgi{
-    height: 449px;
-    background-image:url("image/bg.png");
-    background-repeat: no-repeat;
-    background-position: top,center;
+    display: block;
+    background:url("./image/bg.png") no-repeat center ;
     overflow: hidden;
+    height: 450px;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0;
 }

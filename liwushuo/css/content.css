@@ -11,8 +11,7 @@
     font-size: 18px;
     font-weight: 400;//字体粗细
 }
-.content-ul-1,.content-ul-2{
-    height: 760px;
+.content-ul,.content-ul-2{
     width: 1024px;
 }
 .content-ul-2,.content-ul-3{
@@ -26,7 +25,6 @@
     display: inline-block;
     margin-right: 22px;
     margin-bottom: 30px;
-    float: left;
     width: 310px;
     height: 346px;
     overflow: hidden;
@@ -43,7 +41,7 @@
     height: 142px;
     background-size: 100%;
     background-position: 50% 50%;
-    background-image: url("image/icon_tag_new.png");
+    /*background-image: url("./image/icon_tag_new.png");*/
 }
 .content-title{
     color: #333;
@@ -85,21 +83,21 @@
     float: left;
     width: 18px;
     height: 17px;
-    background-image: url("image/icon_comments_f4d62e5.png");
+    background-image: url("./image/icon_comments_f4d62e5.png");
 }
 .icon-like {
      display: inline-block;
      float: left;
      width: 18px;
      height: 17px;
-     background-image: url("image/icon_favorites_84ea68a.png");
+     background-image: url("./image/icon_favorites_84ea68a.png");
  }
 .icon-share{
     display: inline-block;
     float: left;
     width: 18px;
     height: 17px;
-    background-image: url("image/icon_share_2bbb537.png");
+    background-image: url("./image/icon_share_2bbb537.png");
 }
 .bottom-div{
     height: 75px;
@@ -132,7 +130,7 @@
     height: 50px;
     width: 60px;
     cursor: pointer;
-    background-image: url("image/index_z_d8fb8f2.png");
+    background-image: url("./image/index_z_d8fb8f2.png");
     background-position: -50px -637px;
 }
 .back-top:hover{
