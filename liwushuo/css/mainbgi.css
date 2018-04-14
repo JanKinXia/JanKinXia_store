@@ -1,9 +1,0 @@
-.mainbgi{
-    display: block;
-    background:url("./image/bg.png") no-repeat center ;
-    overflow: hidden;
-    height: 450px;
-    max-width: 1920px;
-    margin: 0 auto;
-    padding: 0;
-}
