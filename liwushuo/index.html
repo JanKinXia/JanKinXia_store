@@ -94,7 +94,6 @@
                 </div>
             </div>
         </div>
-
         <div class="main-bottom">
             <p class="weibo">
                 <i class="weibo-icon"></i>
@@ -276,21 +275,21 @@
             <div class="log-on">登录</div>
             <div class="sign-up">注册</div>
         </div>
-        <form class="losu-form">
+        <form class="losu-form" action="" method="post">
             <div class="d-wrapper">
-            <input type="text"  class="username" id="username" placeholder="手机号码、邮箱"><i class="fa fa-user-o fa-lg" aria-hidden="true"></i>
-            <input type="text" class="password" id="password" placeholder="密码"><i class="fa fa-unlock-alt fa-lg" aria-hidden="true"></i>
-            <input type="button" id="bt-login" value="登录" onclick="check()">
+            <input type="text"  name="username" class="username" id="username" placeholder="手机号码、邮箱"><i class="fa fa-user-o fa-lg" aria-hidden="true"></i>
+            <input type="text" name="password" class="password" id="password" placeholder="密码"><i class="fa fa-unlock-alt fa-lg" aria-hidden="true"></i>
+            <input type="submit" id="bt-login" value="登录" onclick="check()">
                 <span>选择下列快捷登录方式</span>
             </div>
         </form>
 
-        <form class="sign-up-form">
+        <form class="sign-up-form" action="" method="post">
             <div class="d-wrapper">
-            <input type="text" class="username"  id="username-sign" placeholder="手机号码、邮箱"><i class="fa fa-user-o fa-lg" aria-hidden="true"></i>
-            <input type="text" class="password" id="password-sign" placeholder="密码"><i class="fa fa-unlock-alt fa-lg" aria-hidden="true"></i>
-            <input type="text" class="password" id="password-sign-twice" placeholder="确认密码"><i class="fa fa-unlock-alt fa-lg" aria-hidden="true"></i>
-                <input type="button" id="bt-signup" value="注册" onclick="checkSignUp()">
+            <input type="text" name="username" class="username"  id="username-sign" placeholder="手机号码、邮箱" ><i class="fa fa-user-o fa-lg" aria-hidden="true"></i>
+            <input type="text" name="password-sign" class="password" id="password-sign" placeholder="密码"><i class="fa fa-unlock-alt fa-lg" aria-hidden="true"></i>
+            <input type="text" name="password-sign-twice" class="password" id="password-sign-twice" placeholder="确认密码"><i class="fa fa-unlock-alt fa-lg" aria-hidden="true"></i>
+                <input type="submit" id="bt-signup" value="注册" onclick="checkSignUp()">
             </div>
         </form>
 
@@ -301,6 +300,5 @@
 <script type="text/javascript" src="JS/show.js"></script>
 <script type="text/javascript" src="JS/mock.js"></script>
 <script type="text/javascript" src="JS/mock-demo.js"></script>
-<script type="text/javascript" src="JS/set_nav_top.js"></script>
-<script type="text/javascript" src="JS/log-on-sign-up.js"></script>
+<script type="text/javascript" src="JS/LogonSignup.js"></script>
 </html>
