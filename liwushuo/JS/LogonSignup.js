@@ -12,11 +12,9 @@ function check() {
     var a=username.val();
     var b = /(^1[3|5|7|8]\d{9})|(^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$)/;
     if(!b.test(a)){
-        username.css("border","red 1px solid");
-        username.css("box-shadow","0 0 4px red")
+        username.addClass("error-input");
     }else{
-        username.css("border","not specified");
-        username.css("box-shadow","none");
+        username.removeClass("error-input");
     }
 
 }
@@ -25,17 +23,18 @@ function checkSignUp(){
     var c=usernameSignUp.val();
     var b = /(^1[3|5|7|8]\d{9})|(^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$)/;
     if(!b.test(c)){
-        usernameSignUp.css("border","red 1px solid");
-        usernameSignUp.css("box-shadow","0 0 4px red")
+        usernameSignUp.addClass("error-input");
     }else{
-        usernameSignUp.css("border","not specified");
-        usernameSignUp.css("box-shadow","none");
+        usernameSignUp.removeClass("error-input");
     }
     var paw=$("#password-sign");
     var pawT=$("#password-sign-twice");
-    console.log(paw.val(),pawT.val());
-    if(!paw.val()===pawT.val()){
-        paw.css("border","red 1px solid");
+    if(!(paw.val()===pawT.val())){//!先匹配值
+        paw.addClass("error-input");
+        pawT.addClass("error-input");
+    }else{
+        paw.removeClass("error-input");
+        pawT.removeClass("error-input");
     }
 }
 /*切换登录方式*/
@@ -54,5 +53,14 @@ LogOn.click(function () {
     SignUp.css("background-color","#dedede");
     formLogOn.css("display","block");
     formSignUp.css("display","none");
+});
+/*
+修改登录框不在输入状态时样式
+ */
+$(".username").on("click",function () {
+    $(".username").removeClass("error-input");
+});
+$(".password").click(function () {
+    $(".password").removeClass("error-input");
 });
 

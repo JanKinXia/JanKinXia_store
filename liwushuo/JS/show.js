@@ -39,7 +39,7 @@ $(".login").click(function () {
  */
 function showUl() {
     var li=$("<li></li>");li.addClass("content-show");
-    var a=$("<a></a>");a.href="index.html";a.css("cursor","pointer");
+    var a=$("<a></a>");a.attr("href","index.html");a.css("cursor","pointer");
     var divImage=$("<div></div>");divImage.addClass("content-image");
     var divIcon=$("<div></div>");divIcon.addClass("icon-new");
     var divTitle=$("<div></div>");divTitle.addClass("content-title");
@@ -77,4 +77,28 @@ function sh() {
         }
     }
 }
-
+/*
+设置导航栏
+ */
+$(document).ready(function () {
+    var nav=$(".nav-top"); //得到导航对象
+    var win=$(window); //得到窗口对象
+    var sc=$(document);//得到document文档对象。
+    win.scroll(function(){
+        if(sc.scrollTop()>=80){
+            nav.addClass("fixednav");
+            $(".nav-search").css("display","block");
+            $(".back-top").css("display","block");
+        }else{
+            nav.removeClass("fixednav");
+            $(".nav-search").css("display","none");
+            $(".back-top").css("display","none");
+        }
+    });
+});
+$(document).ready(function () {
+    var sc=$(document);
+    $(".back-top").click(function () {
+        sc.scrollTop(0);
+    })
+});
