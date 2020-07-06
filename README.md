@@ -1,4 +1,4 @@
-# JanKinXia_store
+# 第一次模仿网页，这是我前端的正式开始
 ---
 date: 2018-03-30 15:47
 status: public
